@@ -29,7 +29,8 @@ Using a dataset created for automatically detecting online misogynistic speech, 
 
 ### Dataset
 This dataset is gotten from the publication: [Data set for automatic detection of online misogynistic speech](https://www.sciencedirect.com/science/article/pii/S2352340919305773) by Theo Lynn, Patricia Takako Endo and team.
-[Download Dataset](https://md-datasets-cache-zipfiles-prod.s3.eu-west-1.amazonaws.com/3jfwsdkryy-3.zip)
+
+[Dataset](https://md-datasets-cache-zipfiles-prod.s3.eu-west-1.amazonaws.com/3jfwsdkryy-3.zip)
 
 ### Features of the final dataset
 
