@@ -5,6 +5,16 @@
 ![GitHub](https://img.shields.io/github/license/JoelTanSG/Data-Science-Project-Classify-Misogyny-in-Database?label=license)
 ![GitHub top language](https://img.shields.io/github/languages/top/JoelTanSG/Data-Science-Project-Classify-Misogyny-in-Database)
 
+# Table of Content
+
+- [Project Overview](#project-overview)
+    + [Libraries Used](#libraries-used)
+    + [Dataset](#dataset)
+    + [Features of the final dataset](#features-of-the-final-dataset)
+- [WordCloud Analysis](#wordcloud-analysis)
+- [Machine Learning and Predictions](#machine-learning-and-predictions)
+- [Author](#author)
+
 # Project Overview
 Using a dataset created for automatically detecting online misogynistic speech, I set out to clean it up, perform a wordcloud analysis and finally apply machine learning models to look out for misogynistic speech in a database.
 
@@ -29,5 +39,10 @@ Definition|object|phrases that might be consider misogynistic
 is_misogyny|float64|either 0.0 for False or 1.0 for True
 cleaned_definition|object|a cleaned up of the phases and filtering out stop words
 
-### WordCloud Analysis
+# WordCloud Analysis
 
+# Machine Learning and Predictions
+
+# Author
+
+[JoelTanSG](https://github.com/JoelTanSG)
