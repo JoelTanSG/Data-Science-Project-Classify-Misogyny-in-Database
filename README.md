@@ -41,6 +41,8 @@ is_misogyny|float64|either 0.0 for False or 1.0 for True
 cleaned_definition|object|a cleaned up of the phases and filtering out stop words
 
 # WordCloud Analysis
+Comparison between the misogynist definitions and non-misogynist definitions
+![](https://github.com/JoelTanSG/Data-Science-Project-Classify-Misogyny-in-Database/blob/main/wordclouds.png)
 
 # Machine Learning and Predictions
 
