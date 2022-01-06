@@ -8,23 +8,30 @@
 # Table of Content
 
 - [Project Overview](#project-overview)
-    + [Libraries Used](#libraries-used)
+    + [Libraries Used](#libraries-used-in-this-project)
+    + [Machine Learning Models](machine-learning-models-used-in-this-project)
     + [Dataset](#dataset)
     + [Features of the final dataset](#features-of-the-final-dataset)
 - [WordCloud Analysis](#wordcloud-analysis)
-- [Machine Learning and Predictions](#machine-learning-and-predictions)
+- [Machine Learning](#machine-learning-models-and-their-results)
 - [Author](#author)
 
 # Project Overview
 Using a dataset created for automatically detecting online misogynistic speech, I set out to clean it up, perform a wordcloud analysis and finally apply machine learning models to look out for misogynistic speech in a database.
 
-### Libraries Used
+### Libraries used in this project
 * pandas 
 * pathlib 
 * wordcloud
 * matplotlib
 * scipy.sparse
 * sklearn
+
+### Machine Learning Models used in this project
+* DummyClassifier
+* Logistic Regression
+* DecisionTreeClassifier
+* RandomTreeClasifier
 
 
 ### Dataset
@@ -45,7 +52,31 @@ Comparison between Non-misogynist definitions and Misogynist definitions
 
 ![](https://github.com/JoelTanSG/Data-Science-Project-Classify-Misogyny-in-Database/blob/main/wordclouds.png)
 
-# Machine Learning and Predictions
+# Machine Learning Models and their results
+
+Model|F1 Score|Accuracy Score
+---|---|---
+DummyClassifier|50.6%|55.24%
+LogisticRegression|84.73%|87.34%
+DecisionTreeClassifier|83.75%|84.50%
+**RandomTreeClassifier**|**86.50%**|**88.21%**
+
+With the RandomTreeClassifier being the clear winner in this project, here is it's confusion matrix:
+
+__|Predicted: False|Predicted:True
+---|---|---
+Actual: False|231|20
+Acutal: True|34|173
+
+And the top 5 most importance features
+
+feature	|importances
+---|---
+vagina	|0.088365
+female	|0.079378
+pussy	|0.057255
+woman	|0.042098
+dick	|0.021577
 
 # Author
 
