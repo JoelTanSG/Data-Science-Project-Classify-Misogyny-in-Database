@@ -14,6 +14,7 @@
     + [Features of the final dataset](#features-of-the-final-dataset)
 - [WordCloud Analysis](#wordcloud-analysis)
 - [Machine Learning](#machine-learning-models-and-their-results)
+- [Model Testing and conclusion](model-testing-and-conclusion)
 - [Author](#author)
 
 # Project Overview
@@ -77,6 +78,14 @@ female	|0.079378
 pussy	|0.057255
 woman	|0.042098
 dick	|0.021577
+
+# Model Testing and conclusion
+
+After running a mix bag of statements, the model was only able to predict correctly 2 out 0f 5 statements.
+![](https://github.com/JoelTanSG/Data-Science-Project-Classify-Misogyny-in-Database/blob/main/Model_test_SS.png)
+
+One of the correct predictions had 3 out of the 5 words classified as misogynistic.
+It looks like unless the the statement or text has the specific word(s) in the sentence, the model would not classify it as misogynist. Or a single word in the sentence could be taken out of context. Perhaps feeding the model with whole phrases instead would be a better way to train the model. Although that would allow single misogynist words to slip through.
 
 # Author
 
