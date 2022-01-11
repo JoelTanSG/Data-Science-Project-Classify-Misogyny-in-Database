@@ -81,7 +81,7 @@ dick	|0.021577
 
 # Model Testing and conclusion
 
-After running a mix bag of statements, the model was only able to predict correctly 2 out 0f 5 statements.
+After running a mix bag of statements, the model was only able to predict correctly 2 out of 5 statements.
 ![](https://github.com/JoelTanSG/Data-Science-Project-Classify-Misogyny-in-Database/blob/main/Model_test_SS.png)
 
 One of the correct predictions had 3 out of the 5 words classified as misogynistic.
